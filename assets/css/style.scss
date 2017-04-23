@@ -5,3 +5,34 @@ Description: Tiempo hermetico.
 Version: 1.0
 Author: Daniel Torrer
 */
+
+@import "vendors/vendor";
+@import "partials/main";
+@import "../fonts/icomoon/icomoon/style";
+
+#fh5co-logo img{
+  width: 130px;
+  height: auto;
+}
+
+.btn.btn-primary {
+  background: #7b80ba;
+  border-color: #565da4;
+}
+
+.btn.btn-primary:hover {
+  background: #565da4 !important;
+  border-color: #565da4 !important;
+}
+
+#fh5co-hero .fh5co-learn-more a .arrow {
+  background: #7b80ba;
+}
+
+#fh5co-features .fh5co-feature .fh5co-icon i {
+  color: #7b80ba;
+}
+
+.img-responsive.add-element p{
+  color: #7b80ba;
+}
