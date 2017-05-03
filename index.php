@@ -23,13 +23,14 @@
           </a>
         </h1>
         <ul class="pull-right right-menu">
-          <li class="fh5co-cta-btn"><a target="_blank" href="http://th-tijuana.herokuapp.com/#/">Cuenta tu historia</a></li>
+          <li class="fh5co-cta-btn"><a target="_blank" href="#">Cuenta tu historia <small>(Proximamente)</small></a></li>
+          <!-- <li class="fh5co-cta-btn"><a target="_blank" href="http://th-tijuana.herokuapp.com/#/">Cuenta tu historia</a></li> -->
         </ul>
       </nav>
     </div>
   </section>
   <!-- #fh5co-header -->
-  <section id="fh5co-hero" class="js-fullheight" style='background-image: url(<?php echo get_template_directory_uri();?>/assets/images/hero_tijuana.jpg);'
+  <section id="fh5co-hero" class="js-fullheight" style='background-image: url(<?php echo get_template_directory_uri();?>/assets/images/tecate/bg.jpg);'
   data-next="yes">
     <div class="fh5co-overlay"></div>
     <div class="container">
@@ -42,10 +43,11 @@
           <div class="fh5co-right-position">
         -->
         <div class="fh5co-left-position">
-          <h2 class="animate-box">La historia de Tijuana como nunca antes se habia contado</h2>
+          <h2 class="animate-box">La historia de Tecate como nunca antes se habia contado</h2>
           <p class="animate-box">
-            <a href="#" class="btn btn-outline popup-vimeo btn-video"><i class="icon-play2"></i> Conoce más </a>
-            <a href="http://www.tiempohermetico.com/app/" class="btn btn-primary">Explora las historias</a>
+            <!-- <a href="#" class="btn btn-outline popup-vimeo btn-video"><i class="icon-play2"></i> Conoce más </a> -->
+            <a href="#" class="btn btn-primary">Explora las historias</a>
+            <!-- <a href="http://www.tiempohermetico.com/app/" class="btn btn-primary">Explora las historias</a> -->
           </p>
         </div>
       </div>
@@ -67,18 +69,18 @@
         <label for="email">Con el apoyo de:</label>
       </h3>
       <form >
-        <a class="logo-item" href="http://entijuanarte.org/" target="_blank">
-          <img src="<?php echo get_template_directory_uri();?>/assets/images/logo-1.png" alt="">
+        <a class="logo-item pacmyc" href="#">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/tecate/pacmyc.jpg" alt="">
         </a>
-        <a class="logo-item" href="#" target="_blank">
+        <!-- <a class="logo-item" href="#" target="_blank">
           <img src="<?php echo get_template_directory_uri();?>/assets/images/logo-2.png" alt="">
-        </a>
-        <a class="logo-item" href="#" target="_blank">
+        </a> -->
+        <!-- <a class="logo-item" href="#" target="_blank">
           <img src="<?php echo get_template_directory_uri();?>/assets/images/logo-3.png" alt="">
-        </a>
-        <a class="logo-item" href="#" target="_blank">
+        </a> -->
+        <!-- <a class="logo-item" href="#" target="_blank">
           <img src="<?php echo get_template_directory_uri();?>/assets/images/logo-4.png" alt="">
-        </a>
+        </a> -->
       </form>
       <br>
     </div>
@@ -98,7 +100,7 @@
         </figure>
       -->
       <h2 class="fh5co-lead animate-box">Ahora tu escribes la historia</h2>
-      <p class="fh5co-sub-lead animate-box">A traves de tiempo hermético tus vivencias podran formar parte de la historia colectiva de Tijuana</p>
+      <p class="fh5co-sub-lead animate-box">A traves de tiempo hermético tus vivencias podran formar parte de la historia colectiva de Tecate</p>
       <!--
       <p class="fh5co-sub-lead animate-box">Tiempo hermético es un proyecto que busca recolectar la historia colectiva
       de Tijuana, pero esta vez la historia sera contada por nosotros, sus habitantes a travez de las historias de nuestro dia a dia.</p>
@@ -121,7 +123,7 @@
         <div class="fh5co-icon">
           <i class="icon-speech-bubble"></i>
         </div>
-        <h3>3 Modulos</h3>
+        <h3>2 Modulos</h3>
         <p>Ubicados en puntos estrategicos en donde podrias narrar tus historias y el lugar donde ocurrieron. Voz, video, o texto ¡Tu eliges!</p>
       </div>
     </div>
@@ -153,50 +155,60 @@
 
         <div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
           <a href="images/s1.jpg" class="fh5co-project-item image-popup">
-            <img src= "<?php echo get_template_directory_uri();?>/assets/images/s1.jpg"  alt="Image" class="img-responsive">
+            <img src= "<?php echo get_template_directory_uri();?>/assets/images/tecate/ceart-s.jpg"  alt="Image" class="img-responsive">
             <div class="fh5co-text">
-              <h2>CECUT</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+              <h2>CEART</h2>
+              <p> El Centro Estatal de las Artes Tecate del Instituto de Cultura de Baja California (ICBC)</p>
             </div>
           </a>
         </div>
 
         <div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
           <a href="images/img_2.jpg" class="fh5co-project-item image-popup">
-            <img src= "<?php echo get_template_directory_uri();?>/assets/images/s2.jpg"  alt="Image" class="img-responsive">
+            <img src= "<?php echo get_template_directory_uri();?>/assets/images/tecate/cuchuma-s.jpg"  alt="Image" class="img-responsive">
             <div class="fh5co-text">
-              <h2>Hotel Caesar's</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+              <h2>Cuchuma</h2>
+              <p>La montaña sagrada de Tecate</p>
             </div>
           </a>
         </div>
 
         <div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
           <a href="images/s3.jpg" class="fh5co-project-item image-popup">
-            <img src= "<?php echo get_template_directory_uri();?>/assets/images/s3.jpg"  alt="Image" class="img-responsive">
+            <img src= "<?php echo get_template_directory_uri();?>/assets/images/tecate/dianas-s.jpg"  alt="Image" class="img-responsive">
             <div class="fh5co-text">
-              <h2>Playas</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+              <h2>Bar Diana</h2>
+              <p>Desde 1957, el lugar donde se reunen los amigos. </p>
             </div>
           </a>
         </div>
 
         <div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
           <a href="images/s4.jpg" class="fh5co-project-item image-popup">
-            <img src= "<?php echo get_template_directory_uri();?>/assets/images/s4.jpg"  alt="Image" class="img-responsive">
+            <img src= "<?php echo get_template_directory_uri();?>/assets/images/tecate/garita-s.jpg"  alt="Image" class="img-responsive">
             <div class="fh5co-text">
-              <h2>Centro</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+              <h2>Garitas</h2>
+              <p>La union de dos regiones</p>
             </div>
           </a>
         </div>
 
+        <!-- <div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
+          <a href="images/s5.jpg" class="fh5co-project-item image-popup">
+            <img src= "<?php echo get_template_directory_uri();?>/assets/images/tecate/palacio-s.jpg"  alt="Image" class="img-responsive">
+            <div class="fh5co-text">
+              <h2>Palacio Municipal</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+            </div>
+          </a>
+        </div> -->
+
         <div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
           <a href="images/s5.jpg" class="fh5co-project-item image-popup">
-            <img src= "<?php echo get_template_directory_uri();?>/assets/images/s5.jpg"  alt="Image" class="img-responsive">
+            <img src= "<?php echo get_template_directory_uri();?>/assets/images/tecate/parque-s.jpg"  alt="Image" class="img-responsive">
             <div class="fh5co-text">
-              <h2>Avenida Revolución</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+              <h2>Parque Miguel Hidalgo</h2>
+              <p>Uno de los lugares que hace a Tecate cálido y amigable.</p>
             </div>
           </a>
         </div>
@@ -262,9 +274,9 @@
           <div class="fh5co-footer-widget">
             <h3>Redes sociales</h3>
             <ul class="fh5co-social">
-              <li><a target="_blank" href="https://twitter.com/tiempohermetico"><i class="icon-twitter"></i></a></li>
-              <li><a target="_blank" href="https://www.facebook.com/tiempohermetico/"><i class="icon-facebook"></i></a></li>
-              <li><a target="_blank" href="http://instagram.com/tiempohtijuana"><i class="icon-instagram"></i></a></li>
+              <!-- <li><a target="_blank" href="https://twitter.com/tiempohermeticotecate"><i class="icon-twitter"></i></a></li> -->
+              <li><a target="_blank" href="https://www.facebook.com/tiempohermeticotecate/"><i class="icon-facebook"></i></a></li>
+              <!-- <li><a target="_blank" href="http://instagram.com/tiempohtijuana"><i class="icon-instagram"></i></a></li> -->
               <!--<li><a href="#"><i class="icon-youtube-play"></i></a></li>-->
             </ul>
           </div>

@@ -21,14 +21,5 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700" rel="stylesheet" type="text/css">
 
 	<?php wp_head(); ?>
-  <style>
-  a.logo-item {
-    margin: 0 15px;
-    max-width: 250px;
-    display: inline-block;
-    vertical-align: top;
-  }
-  </style>
-
 </head>
 <body <?php body_class(); ?>>

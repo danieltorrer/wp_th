@@ -10,6 +10,47 @@ Author: Daniel Torrer
 @import "partials/main";
 @import "../fonts/icomoon/icomoon/style";
 
+* {
+  box-sizing: border-box;
+}
+
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+.typed-effect {
+  font-weight: normal;
+}
+
+a.logo-item {
+  margin: 0 15px;
+  max-width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#fh5co-hero .fh5co-intro > div .fh5co-left-position {
+  width: 70%;
+}
+
 #fh5co-logo img{
   width: 130px;
   height: auto;
@@ -35,4 +76,23 @@ Author: Daniel Torrer
 
 .img-responsive.add-element p{
   color: #7b80ba;
+}
+
+.pacmyc img{
+  width: 250px;
+  height: auto;
+}
+
+#fh5co-projects .fh5co-project-item:hover {
+    text-decoration: none;
+    // box-shadow: none !important;
+}
+
+.fh5co-text{
+  max-height: 165px;
+  height: 165px;
+}
+
+#fh5co-projects .coming-soon .fh5co-project-item .fh5co-text h2 {
+  color: #999;
 }
