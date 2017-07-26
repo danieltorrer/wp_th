@@ -2942,7 +2942,8 @@ body{background:#efefef url(./assets/images/white_wave.png) repeat}
 *{box-sizing:border-box}
 .typed-cursor{opacity:1;-webkit-animation:blink .7s infinite;animation:blink .7s infinite}
 .typed-effect{font-weight:normal}
-a.logo-item{margin:0 15px;max-width:250px;display:inline-block;vertical-align:top}
+a.logo-item{margin:0 15px;max-width:250px;display:inline-block;vertical-align:middle;text-align:center}
+a.logo-item img{width:100%;height:auto}
 #fh5co-hero .fh5co-intro>div .fh5co-left-position{width:70%}
 #fh5co-logo img{width:130px;height:auto}
 .btn.btn-primary{background:#7b80ba;border-color:#565da4}

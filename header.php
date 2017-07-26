@@ -21,6 +21,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700" rel="stylesheet" type="text/css">
 
 		<?php wp_head(); ?>
+		<?php if( is_page('tijuana')){
+			?>
+				<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/vendors/magnific-popup.css">
+			<?php
+		}?>
 	</head>
 	<body <?php body_class(); ?>>
 
