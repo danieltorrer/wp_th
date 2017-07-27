@@ -3279,6 +3279,11 @@ td.visible-xs,th.visible-xs{display:table-cell !important}
 .visible-xs-inline{display:inline !important}
 .visible-xs-inline-block{display:inline-block !important}
 .hidden-xs{display:none !important}
+}@media(max-width:481px){#fh5co-hero .fh5co-intro-text{padding-top:90px}
+#fh5co-hero .fh5co-intro-text div.fh5co-left-position{width:100%}
+#fh5co-hero h2.animate-box{min-height:285px}
+#fh5co-hero .fh5co-learn-more{margin-left:0 !important;left:calc(50% - 25px)}
+#fh5co-hero .fh5co-learn-more a span.text{display:none}
 }@media screen and (max-width:480px){#fh5co-hero{height:450px}
 #fh5co-hero .fh5co-intro{height:450px}
 #fh5co-hero .fh5co-intro>div .btn-outline,#fh5co-hero .fh5co-intro>div .btn-primary{padding:10px 30px !important;width:100%}

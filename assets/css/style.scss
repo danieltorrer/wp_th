@@ -15,25 +15,25 @@ Author: Daniel Torrer
 }
 
 .typed-cursor{
-	opacity: 1;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 @keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 @-webkit-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 @-moz-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 
 .typed-effect {
@@ -90,8 +90,8 @@ a.logo-item {
 }
 
 #fh5co-projects .fh5co-project-item:hover {
-    text-decoration: none;
-    // box-shadow: none !important;
+  text-decoration: none;
+  // box-shadow: none !important;
 }
 
 .fh5co-text{
@@ -101,4 +101,33 @@ a.logo-item {
 
 #fh5co-projects .coming-soon .fh5co-project-item .fh5co-text h2 {
   color: #999;
+}
+
+@media (max-width: 481px) {
+  #fh5co-hero {
+
+    .fh5co-intro-text {
+      padding-top: 90px;
+
+      div.fh5co-left-position {
+        width: 100%;
+      }
+    }
+
+    h2.animate-box{
+      min-height: 285px;
+    }
+
+  .fh5co-learn-more {
+    margin-left: 0 !important;
+    left: calc(50% - 25px);
+
+    a {
+      span.text {
+        display: none;
+      }
+    }
+  }
+}
+
 }

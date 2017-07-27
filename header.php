@@ -42,9 +42,17 @@
 							<li>
 								<a href="#acerca">Acerca de</a>
 							</li>
+							<?php if( is_front_page() ){ ?>
 							<li>
 								<a href="#sedes">Sedes</a>
 							</li>
+							<?php } else {
+								?>
+								<li>
+									<a href="#sedes">Edificios</a>
+								</li>
+								<?php
+							} ?>
 							<li>
 								<a href="#suscribete">Forma Parte</a>
 							</li>

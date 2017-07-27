@@ -112,7 +112,7 @@
 </div>
 </section>
 <!-- END #fh5co-features -->
-
+<span id="sedes"></span>
 <section id="fh5co-projects">
   <div class="container">
     <div class="row row-bottom-padded-md">
@@ -236,6 +236,7 @@
         <div class="fh5co-footer-widget"><h3>Índice</h3>
           <ul class="fh5co-links">
             <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#sedes">Lugares</a></li>
             <li><a href="#suscribete">Suscríbete</a></li>
           </ul>
         </div>

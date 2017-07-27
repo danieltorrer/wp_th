@@ -84,7 +84,7 @@
 </div>
 </section>
 <!-- END #fh5co-features -->
-
+<span id="sedes"></span>
 <section id="fh5co-projects">
   <div class="container">
     <div class="row row-bottom-padded-md">
@@ -165,6 +165,7 @@
         <div class="fh5co-footer-widget"><h3>Índice</h3>
           <ul class="fh5co-links">
             <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#sedes">Sedes</a></li>
             <li><a href="#suscribete">Suscríbete</a></li>
           </ul>
         </div>
@@ -174,7 +175,7 @@
           <h3>Redes sociales</h3>
           <ul class="fh5co-social">
             <!-- <li><a target="_blank" href="https://twitter.com/tiempohermeticotecate"><i class="icon-twitter"></i></a></li> -->
-            <li><a target="_blank" href="https://www.facebook.com/tiempohermeticotecate/"><i class="icon-facebook"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/tiempohermetico"><i class="icon-facebook"></i></a></li>
             <!-- <li><a target="_blank" href="http://instagram.com/tiempohtijuana"><i class="icon-instagram"></i></a></li> -->
             <!--<li><a href="#"><i class="icon-youtube-play"></i></a></li>-->
           </ul>
@@ -187,7 +188,7 @@
       <div class="row">
         <div class="col-md-12">
           <p class="fh5co-left">
-            <small>&copy; 2016 <a href="index.html">Tiempo Hermético</a>. Todos los derechos reservados.</small>
+            <small>&copy; <?php echo date("Y");?> <a href="index.html">Tiempo Hermético</a>. Todos los derechos reservados.</small>
           </p>
           <p class="fh5co-right">
             <small class="fh5co-right">Dudas y sugerencias <a href="#">hola@tiempohermetico.com</a></small>
